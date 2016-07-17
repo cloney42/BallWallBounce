@@ -103,7 +103,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     xToggle = true;
                     yToggle = false;
                     if (!muteToggle) {
-                        // wallSound.play();
+                         wallSound.play();
                     }
                 }
                 if (wall.equals("right")) {
@@ -111,14 +111,14 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     yToggle = true;
                     playerScore++;
                     if (!muteToggle) {
-                      //  scoreSound.play();
+                        scoreSound.play();
                     }
                 }
                 if (wall.equals("ai")) {
                     xToggle = false;
                     yToggle = true;
                     if (!muteToggle) {
-                       // paddleSound.play();
+                        paddleSound.play();
                     }
                 }
             }
@@ -128,21 +128,21 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     yToggle = false;
                     playerScore++;
                     if (!muteToggle) {
-                       // scoreSound.play();
+                        scoreSound.play();
                     }
                 }
                 if (wall.equals("ai")) {
                     xToggle = false;
                     yToggle = false;
                     if (!muteToggle) {
-                       // paddleSound.play();
+                        paddleSound.play();
                     }
                 }
                 if (wall.equals("top")) {
                     xToggle = true;
                     yToggle = true;
                     if (!muteToggle) {
-                      //  wallSound.play();
+                        wallSound.play();
                     }
                 }
 
@@ -152,7 +152,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     xToggle = false;
                     yToggle = true;
                     if (!muteToggle) {
-                      //  wallSound.play();
+                        wallSound.play();
                     }
                 }
                 if (wall.equals("left")) {
@@ -160,14 +160,14 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     yToggle = false;
                     aiScore++;
                     if (!muteToggle) {
-                       // scoreSound.play();
+                        scoreSound.play();
                     }
                 }
                 if (wall.equals("player")) {
                     xToggle = true;
                     yToggle = false;
                     if (!muteToggle) {
-                      //  paddleSound.play();
+                        paddleSound.play();
                     }
                 }
             }
@@ -176,7 +176,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     xToggle = false;
                     yToggle = false;
                     if (!muteToggle) {
-                      //  wallSound.play();
+                        wallSound.play();
                     }
                 }
                 if (wall.equals("left")) {
@@ -184,14 +184,14 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     yToggle = true;
                     aiScore++;
                     if (!muteToggle) {
-                     //   scoreSound.play();
+                        scoreSound.play();
                     }
                 }
                 if (wall.equals("player")) {
                     xToggle = true;
                     yToggle = true;
                     if (!muteToggle) {
-                     //   paddleSound.play();
+                        paddleSound.play();
                     }
                 }
             }
