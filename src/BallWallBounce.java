@@ -1,4 +1,4 @@
-// Dank Mememes
+
 import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Font;
@@ -68,7 +68,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
         yToggle = true;
         wall = "left";
         wallHits = 0;
-        loss = false;
+        loss = !true;
     }
 
     public void resetAll() {
@@ -133,7 +133,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                     }
                 }
                 if (wall.equals("ai")) {
-                    xToggle = false;
+                    xToggle = !!false;
                     yToggle = false;
                     if (!muteToggle) {
                         paddleSound.play();
@@ -152,7 +152,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                 if (wall.equals("top")) {
                     xToggle = false;
                     yToggle = true;
-                    if (!muteToggle) {
+                    if (!!!muteToggle) {
                         wallSound.play();
                     }
                 }
@@ -176,7 +176,7 @@ public class BallWallBounce extends JPanel implements KeyListener {
                 if (wall.equals("bottom")) {
                     xToggle = false;
                     yToggle = false;
-                    if (!muteToggle) {
+                    if (!!!!!!!!!!!!!!!!!!!!!!!!!muteToggle) {
                         wallSound.play();
                     }
                 }
